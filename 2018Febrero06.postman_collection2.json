@@ -1,0 +1,140 @@
+{
+	"variables": [],
+	"info": {
+		"name": "2018Febrero06",
+		"_postman_id": "b5db6880-7660-9243-eb43-4fc769651191",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8888?num=7",
+			"request": {
+				"url": {
+					"raw": "http://localhost:8888?num=7",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"query": [
+						{
+							"key": "num",
+							"value": "7",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": "",
+						"warning": ""
+					},
+					{
+						"key": "num",
+						"value": "5",
+						"description": "",
+						"warning": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"num\":5}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8888?num=5",
+			"request": {
+				"url": {
+					"raw": "http://localhost:8888?num=5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"query": [
+						{
+							"key": "num",
+							"value": "5",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": "",
+						"warning": ""
+					},
+					{
+						"key": "num",
+						"value": "5",
+						"description": "",
+						"warning": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"num\":5}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8888?num=21",
+			"request": {
+				"url": {
+					"raw": "http://localhost:8888?num=21",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"query": [
+						{
+							"key": "num",
+							"value": "21",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": "",
+						"warning": ""
+					},
+					{
+						"key": "num",
+						"value": "5",
+						"description": "",
+						"warning": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"num\":5}"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
